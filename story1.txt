@@ -1,1 +1,1 @@
-this is story 1 in master branch
+this is story 1 in newBranch branch
