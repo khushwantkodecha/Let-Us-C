@@ -1,0 +1,1 @@
+#include<stdio.h>#include<conio.h>#include<math.h>int main(){	double a,b,c,d;	printf("enter a number\n");	scanf("%lf",&a);	b=sin(a);	c=cos(a);	d=tan(a);	printf("sine of given number is:=%lf \n",b);	printf("cos of given number is:=%lf\n",c);	printf("tan of given number is:=%lf\n",d);	return (0);	getch();}

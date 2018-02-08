@@ -1,0 +1,1 @@
+/* max in two numbers */#include<stdio.h>#include<conio.h>void main(){	int a,b,y;	printf("enter two numbers:\n");	scanf("%d%d",&a,&b);	y=a>b?a:b;	printf("Max number is:%d",y);	getch();}

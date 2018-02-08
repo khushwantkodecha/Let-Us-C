@@ -1,0 +1,1 @@
+#include<stdio.h>#include<conio.h>int main(){	int a=2;	printf("address of given number is :=%u\n",&a);	printf("value of varible is:= %d",a);	return 0;	getch();	}

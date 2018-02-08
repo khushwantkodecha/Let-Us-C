@@ -1,0 +1,1 @@
+#include<stdio.h>#include<conio.h>int sum(int,int);int main(){	int a,b,c;	printf("enter two numbers:=\n");	scanf("%d%d",&a,&b);	c=sum(a,b);	printf("sum of given two numbers is %d",c);	return 0;	getch();}int sum(int x,int y){	int z;	z=x+y;	return (z);}

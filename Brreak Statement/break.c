@@ -1,0 +1,1 @@
+/* demonstartion of break statement */#include<stdio.h>#include<conio.h>int main(){	for(int i=1;i<=3;i=i+1)	{		for(int j=1;j<=4;j++)		{			if(i==j)			{				break;			}			else			{				printf("%d%d\n",i,j);			}		}	}	return 0;	printf("press any key to exit\n");	getch();}

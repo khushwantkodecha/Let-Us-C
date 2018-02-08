@@ -1,0 +1,1 @@
+#include<stdio.h>#include<conio.h>void main(){	int a;	printf("enter a number between 1 and 10:\n");	scanf("%d",&a);	if(a>=1 && a<=4)	{		printf("just go to hell");	}	else	{		if(a>=5 && a<=7)		{			printf("Welcome to heaven");		}		else		{			printf("Nothing to say....You are mad");		}	}	getch();}

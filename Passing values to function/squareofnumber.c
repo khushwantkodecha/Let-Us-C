@@ -1,0 +1,1 @@
+#include<stdio.h>#include<conio.h>double square(double);int main(){	double a;	printf("enter a number \n:=");	scanf("%lf",&a);	double c=square(a);	printf("square of entered b=number is: %lf",c);	return 0;	getch();}double square(double x){	double z=x*x;	return (z);}

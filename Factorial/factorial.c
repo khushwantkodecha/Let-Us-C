@@ -1,0 +1,1 @@
+#include<stdio.h>#include<conio.h>int factorial(int);void main(){	int n,fact;	printf("enter the value of number\n");	scanf("%d",&n);	fact=factorial(n);	printf("factorial is %d",fact);getch();}int factorial(int x){	int f=1,i;	for(int i=x;i>=1;i--)	{		f=f*i;	}	return (f);}

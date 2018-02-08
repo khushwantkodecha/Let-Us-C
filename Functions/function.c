@@ -1,0 +1,1 @@
+#include<stdio.h>#include<conio.h>void india();void england();void brazil();int main(){	printf("indroducing functions\n");	india();	england();	brazil();	printf("function ends");	return 0;	getch();}void india(){	printf("i am in india\n");}void england(){	printf("i am in england\n");}void brazil(){	printf("i am in brazil\n");}
